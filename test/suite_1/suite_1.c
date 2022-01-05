@@ -2,6 +2,16 @@
 
 #include <module_a.h>
 
+void setUp()
+{
+    // This can be empty. Unity requires these. 
+}
+
+void tearDown()
+{
+    // This can be empty. Unity requires these. 
+}
+
 void test_AverageThreeBytes_should_AverageMidRangeValues(void)
 {
     TEST_ASSERT_EQUAL_HEX8(40, AverageThreeBytes(30, 40, 50));
