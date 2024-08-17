@@ -2,6 +2,14 @@
 
 #include <module_a.h>
 
+void setUp(void) 
+{
+}
+
+void tearDown(void) 
+{
+}
+
 void test_AverageThreeBytes_should_AverageMidRangeValues(void)
 {
     TEST_ASSERT_EQUAL_HEX8(40, AverageThreeBytes(30, 40, 50));

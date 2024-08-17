@@ -4,7 +4,7 @@ add_executable(suite_1_app
 
 target_link_libraries(suite_1_app
     module_a
-    Unity
+    unity
 )
 
 add_test(suite_1_test suite_1_app)
